@@ -59,24 +59,7 @@
     }
   </style>
 </head>
-<body>
-  <div class="map-container">
-    <div id="cesiumContainer" class="cesiumContainer"></div>
-    <div class="button-container">
-      <button class="gas-button" data-filename="CO.csv">CO</button>
-      <button class="gas-button" data-filename="C2H5OH.csv">C2H5OH</button>
-      <button class="gas-button" data-filename="H2.csv">H2</button>
-      <button class="gas-button" data-filename="NO2.csv">NO2</button>
-      <button class="gas-button" data-filename="NH3.csv">NH3</button>
-      <button class="gas-button" data-filename="H2S.csv">H2S</button>
-      <button class="gas-button" data-filename="CH4.csv">CH4</button>
-      <button class="gas-button" data-filename="SO2.csv">SO2</button>
-      <button class="gas-button" data-filename="pm2.5.csv">pm2.5</button>
-      <button class="gas-button eco2" data-filename="eCO2.csv">eCO2</button>
-      <button class="flight-button" id="startFlight">Uçuş</button>
-    </div>
-  </div>
-  <script>
+</script>
     Cesium.RequestScheduler.requestsByServer["tile.googleapis.com:443"] = 18;
 
     const viewer = new Cesium.Viewer("cesiumContainer", {
